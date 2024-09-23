@@ -6,15 +6,18 @@ def q1():
   print(a)
 def q2():
   #Write Assignment code here
-  user1 = int(input("Input a number: "))
-  a = float(str(user1) + "4")+2
+  user1 = float(input("Input a number: "))
+  a = str(user1) + "4"
+  a = float(a)+2
   print(a)
+
 
 def q3():
   #Write Assignment code here
-  user2 = int(input("Input a radius: "))
-  a = float((user2**2)*3.14)
-  print(a)
+  num2 = input("Input a radius: ")
+  num2 = float(num2)
+  area = num2*num2*3.14
+  print(area)
 def q4():
   #Write Assignment code here
   user3 = float(input("Input a number: "))
