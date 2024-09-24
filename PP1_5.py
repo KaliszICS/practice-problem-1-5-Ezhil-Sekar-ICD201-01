@@ -6,7 +6,7 @@ def q1():
   print(a)
 def q2():
   #Write Assignment code here
-  user1 = (input("Input a number: "))
+  user1 = input("Input a number: ")
   a = str(user1) + "4"
   a = float(a)+2
   print(a)
